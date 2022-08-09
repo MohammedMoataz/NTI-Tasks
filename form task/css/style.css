@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1cb4cd;
+}
+
+header {
+  margin: 5%;
+  font-size: 25px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  display: inline-block;
+  padding: 50px;
+}
+
+input {
+  width: 80%;
+  margin: 15px;
+  border-radius: 5px;
+  border: 0;
+  padding: 17px 15px;
+  font-size: 19px;
+}
+
+.custom-input {
+  width: 38%;
+}
+
+textarea {
+  width: 80%;
+  margin: 15px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 17px;
+  min-height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #dbe905;
+  width: 38%;
+  float: right;
+  margin: 1% 18%;
+}
+
+.container {
+  float: right;
+  display: block;
+  width: 49%;
+  padding: 5%;
+}
+
+.container > div {
+  color: white;
+  margin: 8%;
+}
+
+div > h2 {
+  margin: 15px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+div > p {
+  font-size: 20px;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+
+div > p > span {
+  font-size: 20px;
+  color: gold;
+  display: block;
+}
+
+div > ul {
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+div > ul > li {
+  margin: 10px;
+}
+
+div > ul > li > a {
+    text-decoration: none;
+    color: white;
+  }
