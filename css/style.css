@@ -1,0 +1,373 @@
+/* Rest Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+ul > li > a {
+  color: #858585c9;
+}
+
+/* Global Style */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay {
+  background-color: #000000a6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-gray {
+  color: #858585c9;
+}
+
+.aside-element {
+  padding: 4% 0% 4% 10%;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.small-card {
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 4%;
+  box-shadow: 0px 0px 5px 1px #d3d3d3;
+  align-items: center;
+}
+
+.small-card > .image-container {
+  width: 23%;
+}
+
+.small-card > h5 {
+  width: 69%;
+}
+
+.big-card {
+  box-shadow: inset 0px 0px 5px 2px #e3e3e3;
+}
+
+.big-card > .image-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.big-card > .description {
+  width: 100%;
+  padding: 7%;
+}
+
+.big-card > .description > a {
+  color: #000000;
+}
+
+.big-card > .description > a > h5 {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 5%;
+}
+
+.big-card > .description > p {
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+.big-card > .description > .date {
+  font-size: 12px;
+}
+
+.top-left-bottom {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  z-index: 10;
+}
+
+.travel-button {
+  border: none;
+  padding: 5% 25%;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #0000ff;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.trending-content > .bottom-content > .small-card-with-date {
+  display: inline-block;
+  width: 48%;
+}
+
+.trending-content > .bottom-content > .small-card-with-date > .small-card {
+  margin-bottom: 1%;
+}
+
+.small-card > .description {
+  width: 70%;
+}
+
+.small-card > .description > h5 {
+  font-size: 16px;
+}
+
+.small-card > .description > p {
+  font-size: 11px;
+  margin-top: 5%;
+}
+
+/*
+  * Navigation Bar
+  */
+
+nav > .nav-bar {
+  top: 0%;
+  background-color: transparent;
+  padding: 1%;
+  position: absolute;
+  z-index: 1024;
+  border-bottom: 1px solid #ffffff;
+  align-items: center;
+}
+
+nav > .nav-bar > .logo > a {
+  font-size: 1vw;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav > .nav-bar > ul {
+  color: #ffffff88;
+  width: 45%;
+  padding: 1%;
+  text-align: end;
+}
+
+nav > .nav-bar > ul > li {
+  margin: 0 2%;
+  font-size: 0.8vw;
+}
+
+nav > .nav-bar > ul > li > i {
+  font-size: 24px;
+}
+
+nav > .nav-bar > ul > li > a:hover {
+  color: #ffffff;
+}
+
+/*
+* Home Section
+*/
+
+.home {
+  background-image: url(https://preview.colorlib.com/theme/world/img/blog-img/xbg1.jpg.pagespeed.ic.5jRX7mD2W5.webp);
+  background-size: cover;
+}
+
+.home-container {
+  margin-top: 22%;
+}
+
+.slider-container {
+  margin: 2% 0%;
+}
+
+.slider {
+  width: 30%;
+  color: #ffffff;
+  align-items: center;
+}
+
+.slider > .circle {
+  width: 15%;
+  border-radius: 50%;
+  text-align: center;
+
+  border-top-color: #2d4ec5;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-right-color: #2d4ec5;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-bottom-color: #2d4ec5;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-left-color: #aaaaaa;
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+.slider > .circle > h3 {
+  line-height: 2.3;
+}
+
+.slider > p {
+  font-size: 14px;
+  width: 75%;
+}
+
+/*
+* Middle Section
+*/
+
+.middle {
+  padding: 5% 0%;
+}
+
+.middle > div > div > div {
+  width: 65%;
+}
+
+.contents > div > .nav-bar {
+  display: flex;
+  width: 100%;
+  padding: 1% 0;
+  border-bottom: 2px solid #f1f1f1;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contents > div > .nav-bar > ul {
+  width: 80%;
+  padding: 1%;
+  text-align: end;
+}
+
+.contents > div > .nav-bar > ul > li {
+  margin: 0 2%;
+  font-size: 0.8vw;
+}
+
+.contents > div > .nav-bar > ul > li > a:hover {
+  color: #000000;
+}
+
+.middle > div > div > aside {
+  width: 29%;
+  border-left: 1px solid #d5d5d5;
+}
+
+.middle > div > div > aside > .description > p {
+  margin: 5% 0% 10%;
+  font-size: 14px;
+}
+
+.middle > div > div > aside > .cards {
+  padding: 10% 0% 10% 10%;
+}
+
+.middle > div > div > aside > .icons > ul {
+  margin: 5% 0%;
+}
+
+.middle > div > div > aside > .icons > ul > li {
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  padding: 2%;
+  border-radius: 50%;
+  width: 10%;
+  color: #8d8d8d;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.middle > div > div > aside > div > a {
+  color: #000000;
+  margin-top: 5%;
+}
+
+.middle > div > div > aside > div > a > h3 {
+  margin-top: 5%;
+  font-size: 17px;
+}
+
+.tab-content {
+  padding-top: 4%;
+}
+
+.tab-content > .content {
+  width: 50%;
+  padding: 0 2%;
+}
+
+.arrows {
+  margin-top: 15%;
+}
+
+.arrows > div {
+  border: 2px solid;
+  color: #d8d8d8;
+  border-radius: 50%;
+  width: 10%;
+  line-height: 2;
+  text-align: center;
+  margin: 0% 2%;
+}
+
+.middle > div > div > aside > .last-element {
+  padding: 10% 0% 20% 10%;
+  border-bottom: none;
+}
+
+/*
+* Trending content
+*/
+
+.trending-content {
+  margin-top: 13%;
+}
+
+.trending-content > .bottom-content {
+  padding: 1% 2%;
+  flex-wrap: wrap;
+}
+
+.trending-content > .arrows {
+  margin-top: 5%;
+}
+
+.trending-content > .arrows > div {
+  width: 5%;
+}
