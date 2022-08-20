@@ -27,6 +27,10 @@ ul > li > a {
   color: #858585c9;
 }
 
+aside {
+  width: 29%;
+}
+
 /* Global Style */
 
 .d-flex {
@@ -74,13 +78,13 @@ ul > li > a {
 .small-card {
   align-items: center;
   background-color: #ffffff;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
   box-shadow: 0px 0px 5px 1px #d3d3d3;
   align-items: center;
 }
 
 .small-card > .image-container {
-  width: 23%;
+  width: 25%;
 }
 
 .small-card > h5 {
@@ -168,16 +172,49 @@ ul > li > a {
 }
 
 .small-card > .description {
-  width: 70%;
-}
-
-.small-card > .description > h5 {
-  font-size: 16px;
+  width: 75%;
+  padding: 3%;
 }
 
 .small-card > .description > p {
   font-size: 11px;
   margin-top: 5%;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.w-lighter {
+  font-weight: lighter;
+}
+
+.v-10 {
+  margin: 10% 0%;
+}
+
+.v-4 {
+  margin: 4% 0%;
+}
+
+.p-2 {
+  padding: 2% 0%;
+}
+
+.border-left {
+  border-left: 1px solid #d5d5d5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #d5d5d5;
 }
 
 /*
@@ -280,12 +317,7 @@ nav > .nav-bar > ul > li > a:hover {
   padding: 5% 0%;
 }
 
-.middle > div > div > div {
-  width: 65%;
-}
-
-.contents > div > .nav-bar {
-  display: flex;
+div > .nav-bar {
   width: 100%;
   padding: 1% 0;
   border-bottom: 2px solid #f1f1f1;
@@ -294,40 +326,35 @@ nav > .nav-bar > ul > li > a:hover {
   align-items: center;
 }
 
-.contents > div > .nav-bar > ul {
+div > .nav-bar > ul {
   width: 80%;
   padding: 1%;
   text-align: end;
 }
 
-.contents > div > .nav-bar > ul > li {
+div > .nav-bar > ul > li {
   margin: 0 2%;
   font-size: 0.8vw;
 }
 
-.contents > div > .nav-bar > ul > li > a:hover {
+div > .nav-bar > ul > li > a:hover {
   color: #000000;
 }
 
-.middle > div > div > aside {
-  width: 29%;
-  border-left: 1px solid #d5d5d5;
-}
-
-.middle > div > div > aside > .description > p {
+aside > .description > p {
   margin: 5% 0% 10%;
   font-size: 14px;
 }
 
-.middle > div > div > aside > .cards {
+aside > .cards {
   padding: 10% 0% 10% 10%;
 }
 
-.middle > div > div > aside > .icons > ul {
+aside > .icons > ul {
   margin: 5% 0%;
 }
 
-.middle > div > div > aside > .icons > ul > li {
+aside > .icons > ul > li {
   border: 1px solid #f1f1f1;
   text-align: center;
   padding: 2%;
@@ -338,12 +365,12 @@ nav > .nav-bar > ul > li > a:hover {
   line-height: 1;
 }
 
-.middle > div > div > aside > div > a {
+aside > div > a {
   color: #000000;
   margin-top: 5%;
 }
 
-.middle > div > div > aside > div > a > h3 {
+aside > div > a > h3 {
   margin-top: 5%;
   font-size: 17px;
 }
@@ -353,7 +380,7 @@ nav > .nav-bar > ul > li > a:hover {
 }
 
 .tab-content > .content {
-  width: 50%;
+  width: 100%;
   padding: 0 2%;
 }
 
@@ -371,7 +398,7 @@ nav > .nav-bar > ul > li > a:hover {
   margin: 0% 2%;
 }
 
-.middle > div > div > aside > .last-element {
+aside > .last-element {
   padding: 10% 0% 20% 10%;
   border-bottom: none;
 }
@@ -405,4 +432,21 @@ nav > .nav-bar > ul > li > a:hover {
   padding: 0% 1%;
   position: relative;
   z-index: 1;
+}
+
+/*
+* Last Section
+*/
+
+.last-section {
+  padding: 5% 0%;
+}
+
+.content > button {
+  margin-left: 70%;
+  margin-top: 8%;
+  width: 17%;
+  padding: 1%;
+  border: 1px solid;
+  border-radius: 19px;
 }
