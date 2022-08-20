@@ -48,6 +48,12 @@ ul > li > a {
   justify-content: space-between;
 }
 
+.flex-column-space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .overlay {
   background-color: #000000a6;
 }
@@ -107,19 +113,38 @@ ul > li > a {
 }
 
 .big-card > .description > p {
-  font-size: 16px;
   margin-bottom: 5%;
 }
 
-.big-card > .description > .date {
+.date {
   font-size: 12px;
 }
 
-.top-left-bottom {
+.p-abs {
   position: absolute;
+  z-index: 10;
+  top: 0%;
+}
+
+.top-left-botton {
   top: 10%;
   left: 15%;
-  z-index: 10;
+}
+
+.top-center-botton {
+  top: 10%;
+  margin: 0% 40%;
+}
+
+.image-container > .description {
+  text-align: center;
+  padding: 5%;
+  height: 100%;
+}
+
+.image-container > .description > a {
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .travel-button {
@@ -156,8 +181,8 @@ ul > li > a {
 }
 
 /*
-  * Navigation Bar
-  */
+* Navigation Bar
+*/
 
 nav > .nav-bar {
   top: 0%;
@@ -370,4 +395,14 @@ nav > .nav-bar > ul > li > a:hover {
 
 .trending-content > .arrows > div {
   width: 5%;
+}
+
+/*
+* Images Section
+*/
+
+.image-card {
+  padding: 0% 1%;
+  position: relative;
+  z-index: 1;
 }
