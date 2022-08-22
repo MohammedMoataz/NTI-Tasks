@@ -1,0 +1,22 @@
+/* 
+*** Rest Style
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+*** Global Style
+*/
+
+.list-style-none {
+  list-style: none;
+}
+
+.bg-primary-blue {
+  background-color: #0c65ed;
+}
