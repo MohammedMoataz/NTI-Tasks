@@ -1,0 +1,175 @@
+/* 
+*** Rest Style
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+  *** Global Style
+  */
+
+.list-style-none {
+  list-style: none;
+}
+
+.bg-blue {
+  background-color: #0c65ed;
+}
+
+.primary-blue {
+  color: #0c65ed;
+}
+
+.img-90 {
+  width: 90px;
+  height: 90px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-2 {
+  height: 2px;
+}
+
+.f-3 {
+  font-size: 3rem;
+}
+
+.f-7 {
+  font-size: 7rem;
+}
+
+.fx-14 {
+  font-size: 14px;
+}
+
+.text-gray {
+  color: #666666;
+}
+
+.text-gray-light {
+  color: #c6c6c6;
+}
+
+.top-5 {
+  top: 3%;
+}
+
+.start-7 {
+  left: 7%;
+}
+
+/*
+  *** Carousel
+  */
+
+.h-900px {
+  height: 900px;
+}
+
+.carousel-caption {
+  bottom: 8.25rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+}
+
+/*
+  *** Home Section
+  */
+
+#home {
+  background-image: url(../images/slider1.jpg);
+  background-size: cover;
+  text-align: center;
+  z-index: 0;
+}
+
+.filter {
+  filter: brightness(0.2);
+}
+
+.home > div > header {
+  padding: 7%;
+}
+
+.footer-bottom {
+  box-shadow: 0 -0.3rem 0.5rem rgb(0 0 0 / 50%) !important;
+}
+
+.bg-footer-dark {
+  background-color: #1a1a1a;
+}
+
+/*
+  *** Services Section
+  */
+
+#services {
+  background-image: url(../images/ecommerce-cover-2.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.bg-opacity-90 {
+  opacity: 0.9;
+}
+
+/*
+*** Testimonial Section 
+*/
+
+.owl-nav {
+  margin-top: 3%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.owl-prev,
+.owl-next {
+  background: #0c65ed !important;
+  padding: 8% !important;
+}
+
+.owl-prev > i,
+.owl-next > i {
+  color: #ffffff;
+}
+
+.owl-prev {
+  margin-right: 1%;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 15px;
+}
+
+.owl-next {
+  margin-left: 1%;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 15px;
+}
+
+/*
+*** Floating Button
+*/
+
+#floating-btn {
+  display: none;
+}
+
+#floating-btn > a {
+  bottom: 5%;
+  right: 5%;
+  z-index: 1024;
+}
